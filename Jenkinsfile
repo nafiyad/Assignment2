@@ -3,7 +3,7 @@ pipeline {
 
     environment {
         NETLIFY_SITE_ID = 'c1493684-7ac4-475d-90ba-396b2cf694b4'
-        NETLIFY_AUTH_TOKEN = credentials('assignment2token')
+        NETLIFY_AUTH_TOKEN = credentials('assignment2Token')
     }
     stages {
         stage('Docker'){
